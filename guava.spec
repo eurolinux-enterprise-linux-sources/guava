@@ -1,6 +1,6 @@
 Name:          guava
 Version:       13.0
-Release:       5%{?dist}
+Release:       6%{?dist}
 Summary:       Google Core Libraries for Java
 License:       ASL 2.0 
 URL:           http://code.google.com/p/guava-libraries
@@ -54,6 +54,9 @@ find . -name '*.jar' -delete
 %doc COPYING
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 13.0-6
+- Mass rebuild 2013-12-27
+
 * Tue Aug 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 13.0-5
 - Migrate away from mvn-rpmbuild
 
